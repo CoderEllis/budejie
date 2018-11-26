@@ -1,5 +1,5 @@
 //
-//  ELTabBarController.h
+//  ELAddViewController.h
 //  budejie
 //
 //  Created by Soul Ai on 21/11/2018.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ELTabBarController : UITabBarController
+@interface ELAddViewController : UIViewController
 
 @end
 

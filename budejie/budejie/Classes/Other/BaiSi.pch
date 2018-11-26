@@ -1,0 +1,64 @@
+
+#import "UIView+Frame.h"
+#import "UIBarButtonItem+Item.h"
+#import "ELConst.h"
+
+
+// 在此处包括应包含在所有编译单元中的任何系统框架和库头
+// 您还需要设置一个或多个目标的Prefix Header构建设置以引用此文件 路径位置 Build Seting ->Prefix Header
+/*
+ pch步骤:1.提前编译Pch
+ 
+ 1.存放公用宏
+ 2.存放公用头文件
+ 3.自定义Log
+ */
+
+//写入 plist 文件到桌面  1个# 表示跟在@后面加""   2个## 连接  // #filename -> "filename" // @#filename -> @"filename"
+#define ELAFNWriteToPlist(filename) [responseObject writeToFile:[NSString stringWithFormat:@"/Users/soulai/Desktop/%@.plist", @#filename] atomically:YES];
+
+#define ELColor(r,g,b) [UIColor colorWithRed:(r) / 256.0 green:(g) / 256.0 blue:(b) / 256.0 alpha:1]
+//随机颜色
+
+#define ELGrayColor(v) ELColor(v,v,v)
+
+#define ELRandomColor ELColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+
+/***********屏幕适配*************/
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenScale [UIScreen mainScreen].scale
+
+#define isIPhoneX_Xs (ScreenWidth == 375.0 && ScreenHeight == 812.0)
+#define isIPhoneXR ((ScreenWidth == 414.0 && ScreenHeight == 896.0) && ScreenScale == 2.0)
+#define isIPhoneXsMax ((ScreenWidth == 414.0 && ScreenHeight == 896.0) && ScreenScale == 3.0)
+#define StatusBarHeight ((isIPhoneX_Xs || isIPhoneXR || isIPhoneXsMax) ? 44.0 : 20.0)
+#define NavBarHeight ((isIPhoneX_Xs || isIPhoneXR || isIPhoneXsMax) ? 44.0)
+#define StatusNavBarHeight (StatusBarHeight + NavBarHeight)
+#define TabBarHeight ((isIPhoneX_Xs || isIPhoneXR || isIPhoneXsMax) ? 83.0 : 49.0)
+#define BottomSafeAreaHeight 34.0
+
+#define iphone6P (ScreenHeight == 736)
+#define iphone6 (ScreenHeight == 667)
+#define iphone5 (ScreenHeight == 568)
+#define iphone4 (ScreenHeight == 480)
+/***********屏幕适配*************/
+
+
+#define kStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+#define kNavBarHeight 44.0
+//注意：请直接获取系统的tabbar高度，若没有用系统tabbar，建议判断屏幕高度；之前判断  状态栏高度的方法不妥，如果正在通话状态栏会变高，导致判断异常
+
+
+
+#define ELFunc ELLog(@"%s",__func__)
+
+#ifdef DEBUG // 调试
+
+#define ELLog(...) NSLog(__VA_ARGS__)
+
+#else // 发布
+
+#define ELLog(...)
+
+#endif

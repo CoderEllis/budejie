@@ -1,5 +1,5 @@
 //
-//  ELTabBarController.h
+//  UIImage+image.h
 //  budejie
 //
 //  Created by Soul Ai on 21/11/2018.
@@ -10,8 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ELTabBarController : UITabBarController
-
+@interface UIImage (image)
++ (UIImage *)imageOriginalwhitName:(NSString *)imageName;
 @end
 
 NS_ASSUME_NONNULL_END

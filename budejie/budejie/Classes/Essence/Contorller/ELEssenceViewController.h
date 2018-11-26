@@ -1,8 +1,8 @@
 //
-//  ELTabBarController.h
+//  ELEssenceViewController.h
 //  budejie
 //
-//  Created by Soul Ai on 21/11/2018.
+//  Created by Soul Ai on 20/11/2018.
 //  Copyright © 2018 Soul Ai. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ELTabBarController : UITabBarController
+@interface ELEssenceViewController : UIViewController
 
 @end
 

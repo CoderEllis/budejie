@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ELAddViewController">
+            <connections>
+                <outlet property="addContainView" destination="CL1-Mf-e9Z" id="3l0-Xf-2OQ"/>
+                <outlet property="jumpBtn" destination="Zon-Gj-OYF" id="szu-ps-5lb"/>
+                <outlet property="launchImageView" destination="4DE-5d-E00" id="7Gr-3c-EJs"/>
+                <outlet property="view" destination="lG9-b0-Jyk" id="4NN-Ep-NGc"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="lG9-b0-Jyk">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4DE-5d-E00">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CL1-Mf-e9Z" userLabel="广告占位视图">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zon-Gj-OYF">
+                    <rect key="frame" x="329" y="44" width="65" height="30"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.73789612680000005" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="65" id="Xgs-hh-uWJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="跳过 (3)"/>
+                    <connections>
+                        <action selector="clickJumo:" destination="-1" eventType="touchUpInside" id="a7j-rm-7yc"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="CL1-Mf-e9Z" secondAttribute="bottom" id="Xvi-96-PZT"/>
+                <constraint firstItem="4DE-5d-E00" firstAttribute="leading" secondItem="lG9-b0-Jyk" secondAttribute="leading" id="YXG-bj-ZWK"/>
+                <constraint firstItem="Zon-Gj-OYF" firstAttribute="top" secondItem="4wd-xn-lCT" secondAttribute="top" id="coR-mt-0zj"/>
+                <constraint firstItem="CL1-Mf-e9Z" firstAttribute="leading" secondItem="lG9-b0-Jyk" secondAttribute="leading" id="ctM-BD-2ye"/>
+                <constraint firstAttribute="trailing" secondItem="CL1-Mf-e9Z" secondAttribute="trailing" id="e7w-wz-TMt"/>
+                <constraint firstAttribute="bottom" secondItem="4DE-5d-E00" secondAttribute="bottom" id="iAG-SP-hf9"/>
+                <constraint firstItem="4wd-xn-lCT" firstAttribute="trailing" secondItem="Zon-Gj-OYF" secondAttribute="trailing" constant="20" id="uMP-SN-rL8"/>
+                <constraint firstItem="4DE-5d-E00" firstAttribute="top" secondItem="lG9-b0-Jyk" secondAttribute="top" id="vJb-yA-UcU"/>
+                <constraint firstItem="CL1-Mf-e9Z" firstAttribute="top" secondItem="lG9-b0-Jyk" secondAttribute="top" id="yd7-4b-6Yb"/>
+                <constraint firstAttribute="trailing" secondItem="4DE-5d-E00" secondAttribute="trailing" id="z6i-hd-x2y"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="4wd-xn-lCT"/>
+            <point key="canvasLocation" x="-39" y="-166"/>
+        </view>
+    </objects>
+</document>

@@ -7,26 +7,120 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16566B1D21A447BF005F39B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16566B1B21A447BF005F39B8 /* Main.storyboard */; };
+		161103F621AAB19400487465 /* ELFastButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 161103F521AAB19400487465 /* ELFastButton.m */; };
+		161103F921AAB28F00487465 /* ELLoginField.m in Sources */ = {isa = PBXBuildFile; fileRef = 161103F821AAB28F00487465 /* ELLoginField.m */; };
+		161CAAD521AACA35005FAE59 /* UITextField+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 161CAAD421AACA35005FAE59 /* UITextField+Placeholder.m */; };
+		16293B8721A7DFD7008647B7 /* ELADItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 16293B8621A7DFD7008647B7 /* ELADItem.m */; };
+		1641E27021A4800200B257C1 /* ELTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1641E26F21A4800200B257C1 /* ELTabBarController.m */; };
 		16566B1F21A447C0005F39B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16566B1E21A447C0005F39B8 /* Assets.xcassets */; };
 		16566B2221A447C0005F39B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16566B2021A447C0005F39B8 /* LaunchScreen.storyboard */; };
 		16566B4A21A449C3005F39B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16566B3321A449C3005F39B8 /* main.m */; };
 		16566B4B21A449C3005F39B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16566B3421A449C3005F39B8 /* AppDelegate.m */; };
-		16566B4E21A44A1C005F39B8 /* ELTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16566B4D21A44A1C005F39B8 /* ELTabBarController.m */; };
+		165DD2F421A458BE0013C959 /* ELEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165DD2F321A458BE0013C959 /* ELEssenceViewController.m */; };
+		165DD2F721A458CA0013C959 /* ELNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165DD2F621A458CA0013C959 /* ELNewViewController.m */; };
+		165DD2FA21A458D50013C959 /* ELPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165DD2F921A458D50013C959 /* ELPublishViewController.m */; };
+		165DD2FD21A458DE0013C959 /* ELFriendTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165DD2FC21A458DE0013C959 /* ELFriendTrendViewController.m */; };
+		165DD30021A458E80013C959 /* ELMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165DD2FF21A458E80013C959 /* ELMeViewController.m */; };
+		165E7DD621A482DD00A3DCB7 /* ELNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165E7DD521A482DD00A3DCB7 /* ELNavigationController.m */; };
+		1660A0E421A83C7E00006F9B /* ELSubTagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660A0E321A83C7E00006F9B /* ELSubTagItem.m */; };
+		1660A0E821A83CAF00006F9B /* ELSubTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660A0E621A83CAF00006F9B /* ELSubTagCell.m */; };
+		1660A0E921A83CAF00006F9B /* ELSubTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1660A0E721A83CAF00006F9B /* ELSubTagCell.xib */; };
+		1660A0EC21A83CF400006F9B /* ELSubTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660A0EB21A83CF400006F9B /* ELSubTagViewController.m */; };
+		1660A0F721A8408300006F9B /* ELConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660A0F621A8408300006F9B /* ELConst.m */; };
+		1660A0F921A99DE100006F9B /* ELFriendTrendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1660A0F821A99DE100006F9B /* ELFriendTrendViewController.xib */; };
+		1660A0FD21A9A0BF00006F9B /* ELLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660A0FB21A9A0BF00006F9B /* ELLoginRegisterViewController.m */; };
+		1660A0FE21A9A0BF00006F9B /* ELLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1660A0FC21A9A0BF00006F9B /* ELLoginRegisterViewController.xib */; };
+		1660A10221A9A9B900006F9B /* ELLoginRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660A10021A9A9B900006F9B /* ELLoginRegisterView.m */; };
+		1660A10321A9A9B900006F9B /* ELLoginRegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1660A10121A9A9B900006F9B /* ELLoginRegisterView.xib */; };
+		1660A10721A9A9CA00006F9B /* ELFastLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660A10521A9A9CA00006F9B /* ELFastLoginView.m */; };
+		1660A10821A9A9CA00006F9B /* ELFastLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1660A10621A9A9CA00006F9B /* ELFastLoginView.xib */; };
+		16B2211021A52CAF008639C0 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B2210F21A52CAF008639C0 /* UIView+Frame.m */; };
+		16B2211421A5606A008639C0 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B2211321A5606A008639C0 /* UIBarButtonItem+Item.m */; };
+		16B2211B21A592A3008639C0 /* ELSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B2211A21A592A3008639C0 /* ELSettingViewController.m */; };
+		16B2212321A5970F008639C0 /* ELAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B2212121A5970F008639C0 /* ELAddViewController.m */; };
+		16B2212421A5970F008639C0 /* ELAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16B2212221A5970F008639C0 /* ELAddViewController.xib */; };
+		16B2212D21A59E9C008639C0 /* LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B2212621A59E9C008639C0 /* LaunchImage@2x.png */; };
+		16B2212E21A59E9C008639C0 /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B2212721A59E9C008639C0 /* LaunchImage-568h@2x.png */; };
+		16B2212F21A59E9C008639C0 /* LaunchImage-800-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B2212821A59E9C008639C0 /* LaunchImage-800-667h@2x.png */; };
+		16B2213021A59E9C008639C0 /* LaunchImage-800-Portrait-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B2212921A59E9C008639C0 /* LaunchImage-800-Portrait-736h@3x.png */; };
+		16B2213121A59E9C008639C0 /* LaunchImage-700@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B2212A21A59E9C008639C0 /* LaunchImage-700@2x.png */; };
+		16B2213221A59E9C008639C0 /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B2212B21A59E9C008639C0 /* LaunchImage-700-568h@2x.png */; };
+		16B2213321A59E9C008639C0 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B2212C21A59E9C008639C0 /* LaunchImage.png */; };
+		16D4C18A21A4D4FF00CB387A /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D4C18921A4D4FF00CB387A /* UIImage+image.m */; };
+		16D4C1EE21A529D400CB387A /* ELTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D4C1ED21A529D400CB387A /* ELTabBar.m */; };
 		42625695E75A93CF687BA188 /* libPods-budejie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3C127C20440EA866ABD8EB /* libPods-budejie.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		161103F421AAB19400487465 /* ELFastButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELFastButton.h; sourceTree = "<group>"; };
+		161103F521AAB19400487465 /* ELFastButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELFastButton.m; sourceTree = "<group>"; };
+		161103F721AAB28F00487465 /* ELLoginField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELLoginField.h; sourceTree = "<group>"; };
+		161103F821AAB28F00487465 /* ELLoginField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELLoginField.m; sourceTree = "<group>"; };
+		161CAAD321AACA35005FAE59 /* UITextField+Placeholder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+Placeholder.h"; sourceTree = "<group>"; };
+		161CAAD421AACA35005FAE59 /* UITextField+Placeholder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Placeholder.m"; sourceTree = "<group>"; };
+		16293B8521A7DFD7008647B7 /* ELADItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELADItem.h; sourceTree = "<group>"; };
+		16293B8621A7DFD7008647B7 /* ELADItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELADItem.m; sourceTree = "<group>"; };
+		1641E26E21A4800200B257C1 /* ELTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELTabBarController.h; sourceTree = "<group>"; };
+		1641E26F21A4800200B257C1 /* ELTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELTabBarController.m; sourceTree = "<group>"; };
 		16566B1221A447BF005F39B8 /* budejie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = budejie.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		16566B1C21A447BF005F39B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16566B1E21A447C0005F39B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16566B2121A447C0005F39B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16566B2321A447C0005F39B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16566B3121A449C3005F39B8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		16566B3321A449C3005F39B8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		16566B3421A449C3005F39B8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		16566B4C21A44A1C005F39B8 /* ELTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELTabBarController.h; sourceTree = "<group>"; };
-		16566B4D21A44A1C005F39B8 /* ELTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELTabBarController.m; sourceTree = "<group>"; };
+		165DD2F221A458BE0013C959 /* ELEssenceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELEssenceViewController.h; sourceTree = "<group>"; };
+		165DD2F321A458BE0013C959 /* ELEssenceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELEssenceViewController.m; sourceTree = "<group>"; };
+		165DD2F521A458CA0013C959 /* ELNewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELNewViewController.h; sourceTree = "<group>"; };
+		165DD2F621A458CA0013C959 /* ELNewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELNewViewController.m; sourceTree = "<group>"; };
+		165DD2F821A458D50013C959 /* ELPublishViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELPublishViewController.h; sourceTree = "<group>"; };
+		165DD2F921A458D50013C959 /* ELPublishViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELPublishViewController.m; sourceTree = "<group>"; };
+		165DD2FB21A458DE0013C959 /* ELFriendTrendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELFriendTrendViewController.h; sourceTree = "<group>"; };
+		165DD2FC21A458DE0013C959 /* ELFriendTrendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELFriendTrendViewController.m; sourceTree = "<group>"; };
+		165DD2FE21A458E80013C959 /* ELMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELMeViewController.h; sourceTree = "<group>"; };
+		165DD2FF21A458E80013C959 /* ELMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELMeViewController.m; sourceTree = "<group>"; };
+		165E7DD421A482DD00A3DCB7 /* ELNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELNavigationController.h; sourceTree = "<group>"; };
+		165E7DD521A482DD00A3DCB7 /* ELNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELNavigationController.m; sourceTree = "<group>"; };
+		1660A0E221A83C7E00006F9B /* ELSubTagItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELSubTagItem.h; sourceTree = "<group>"; };
+		1660A0E321A83C7E00006F9B /* ELSubTagItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELSubTagItem.m; sourceTree = "<group>"; };
+		1660A0E521A83CAF00006F9B /* ELSubTagCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELSubTagCell.h; sourceTree = "<group>"; };
+		1660A0E621A83CAF00006F9B /* ELSubTagCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELSubTagCell.m; sourceTree = "<group>"; };
+		1660A0E721A83CAF00006F9B /* ELSubTagCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ELSubTagCell.xib; sourceTree = "<group>"; };
+		1660A0EA21A83CF400006F9B /* ELSubTagViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELSubTagViewController.h; sourceTree = "<group>"; };
+		1660A0EB21A83CF400006F9B /* ELSubTagViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELSubTagViewController.m; sourceTree = "<group>"; };
+		1660A0F521A8408300006F9B /* ELConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELConst.h; sourceTree = "<group>"; };
+		1660A0F621A8408300006F9B /* ELConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELConst.m; sourceTree = "<group>"; };
+		1660A0F821A99DE100006F9B /* ELFriendTrendViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ELFriendTrendViewController.xib; sourceTree = "<group>"; };
+		1660A0FA21A9A0BF00006F9B /* ELLoginRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELLoginRegisterViewController.h; sourceTree = "<group>"; };
+		1660A0FB21A9A0BF00006F9B /* ELLoginRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELLoginRegisterViewController.m; sourceTree = "<group>"; };
+		1660A0FC21A9A0BF00006F9B /* ELLoginRegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ELLoginRegisterViewController.xib; sourceTree = "<group>"; };
+		1660A0FF21A9A9B900006F9B /* ELLoginRegisterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELLoginRegisterView.h; sourceTree = "<group>"; };
+		1660A10021A9A9B900006F9B /* ELLoginRegisterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELLoginRegisterView.m; sourceTree = "<group>"; };
+		1660A10121A9A9B900006F9B /* ELLoginRegisterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ELLoginRegisterView.xib; sourceTree = "<group>"; };
+		1660A10421A9A9CA00006F9B /* ELFastLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELFastLoginView.h; sourceTree = "<group>"; };
+		1660A10521A9A9CA00006F9B /* ELFastLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELFastLoginView.m; sourceTree = "<group>"; };
+		1660A10621A9A9CA00006F9B /* ELFastLoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ELFastLoginView.xib; sourceTree = "<group>"; };
+		16B2210E21A52CAF008639C0 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		16B2210F21A52CAF008639C0 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		16B2211121A52FD1008639C0 /* BaiSi.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaiSi.pch; sourceTree = "<group>"; };
+		16B2211221A5606A008639C0 /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		16B2211321A5606A008639C0 /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
+		16B2211921A592A3008639C0 /* ELSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELSettingViewController.h; sourceTree = "<group>"; };
+		16B2211A21A592A3008639C0 /* ELSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELSettingViewController.m; sourceTree = "<group>"; };
+		16B2212021A5970F008639C0 /* ELAddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELAddViewController.h; sourceTree = "<group>"; };
+		16B2212121A5970F008639C0 /* ELAddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELAddViewController.m; sourceTree = "<group>"; };
+		16B2212221A5970F008639C0 /* ELAddViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ELAddViewController.xib; sourceTree = "<group>"; };
+		16B2212621A59E9C008639C0 /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage@2x.png"; sourceTree = "<group>"; };
+		16B2212721A59E9C008639C0 /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x.png"; sourceTree = "<group>"; };
+		16B2212821A59E9C008639C0 /* LaunchImage-800-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-667h@2x.png"; sourceTree = "<group>"; };
+		16B2212921A59E9C008639C0 /* LaunchImage-800-Portrait-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Portrait-736h@3x.png"; sourceTree = "<group>"; };
+		16B2212A21A59E9C008639C0 /* LaunchImage-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700@2x.png"; sourceTree = "<group>"; };
+		16B2212B21A59E9C008639C0 /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
+		16B2212C21A59E9C008639C0 /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		16D4C18821A4D4FF00CB387A /* UIImage+image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
+		16D4C18921A4D4FF00CB387A /* UIImage+image.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
+		16D4C1EC21A529D400CB387A /* ELTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELTabBar.h; sourceTree = "<group>"; };
+		16D4C1ED21A529D400CB387A /* ELTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELTabBar.m; sourceTree = "<group>"; };
 		6D0ADB0CD4515B1F111E3DBC /* Pods-budejie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-budejie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-budejie/Pods-budejie.debug.xcconfig"; sourceTree = "<group>"; };
 		8F3C127C20440EA866ABD8EB /* libPods-budejie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-budejie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E61DE5F3A0EA45DFBB3094D1 /* Pods-budejie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-budejie.release.xcconfig"; path = "Pods/Target Support Files/Pods-budejie/Pods-budejie.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,8 +169,8 @@
 			isa = PBXGroup;
 			children = (
 				16566B2B21A449C3005F39B8 /* Classes */,
-				16566B1B21A447BF005F39B8 /* Main.storyboard */,
 				16566B1E21A447C0005F39B8 /* Assets.xcassets */,
+				16B2212521A59E9C008639C0 /* 启动图片 */,
 				16566B2021A447C0005F39B8 /* LaunchScreen.storyboard */,
 				16566B2321A447C0005F39B8 /* Info.plist */,
 			);
@@ -86,11 +180,13 @@
 		16566B2B21A449C3005F39B8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				16566B2C21A449C3005F39B8 /* FriendTrend */,
-				16566B3521A449C3005F39B8 /* Publish */,
+				16B2211C21A5967B008639C0 /* AD */,
+				16B2211521A59258008639C0 /* Setting */,
 				16566B3921A449C3005F39B8 /* Essence */,
-				16566B3D21A449C3005F39B8 /* Me */,
 				16566B4121A449C3005F39B8 /* New */,
+				16566B3521A449C3005F39B8 /* Publish */,
+				16566B2C21A449C3005F39B8 /* FriendTrend */,
+				16566B3D21A449C3005F39B8 /* Me */,
 				16566B4521A449C3005F39B8 /* Main */,
 				16566B3021A449C3005F39B8 /* Other */,
 				16566B4921A449C3005F39B8 /* Tool */,
@@ -118,6 +214,16 @@
 		16566B2E21A449C3005F39B8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1660A0FF21A9A9B900006F9B /* ELLoginRegisterView.h */,
+				1660A10021A9A9B900006F9B /* ELLoginRegisterView.m */,
+				1660A10121A9A9B900006F9B /* ELLoginRegisterView.xib */,
+				1660A10421A9A9CA00006F9B /* ELFastLoginView.h */,
+				1660A10521A9A9CA00006F9B /* ELFastLoginView.m */,
+				1660A10621A9A9CA00006F9B /* ELFastLoginView.xib */,
+				161103F421AAB19400487465 /* ELFastButton.h */,
+				161103F521AAB19400487465 /* ELFastButton.m */,
+				161103F721AAB28F00487465 /* ELLoginField.h */,
+				161103F821AAB28F00487465 /* ELLoginField.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -125,6 +231,12 @@
 		16566B2F21A449C3005F39B8 /* Contorller */ = {
 			isa = PBXGroup;
 			children = (
+				165DD2FB21A458DE0013C959 /* ELFriendTrendViewController.h */,
+				165DD2FC21A458DE0013C959 /* ELFriendTrendViewController.m */,
+				1660A0F821A99DE100006F9B /* ELFriendTrendViewController.xib */,
+				1660A0FA21A9A0BF00006F9B /* ELLoginRegisterViewController.h */,
+				1660A0FB21A9A0BF00006F9B /* ELLoginRegisterViewController.m */,
+				1660A0FC21A9A0BF00006F9B /* ELLoginRegisterViewController.xib */,
 			);
 			path = Contorller;
 			sourceTree = "<group>";
@@ -136,6 +248,9 @@
 				16566B3121A449C3005F39B8 /* AppDelegate.h */,
 				16566B3421A449C3005F39B8 /* AppDelegate.m */,
 				16566B3321A449C3005F39B8 /* main.m */,
+				16B2211121A52FD1008639C0 /* BaiSi.pch */,
+				1660A0F521A8408300006F9B /* ELConst.h */,
+				1660A0F621A8408300006F9B /* ELConst.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -143,6 +258,14 @@
 		16566B3221A449C3005F39B8 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				16D4C18821A4D4FF00CB387A /* UIImage+image.h */,
+				16D4C18921A4D4FF00CB387A /* UIImage+image.m */,
+				16B2210E21A52CAF008639C0 /* UIView+Frame.h */,
+				16B2210F21A52CAF008639C0 /* UIView+Frame.m */,
+				16B2211221A5606A008639C0 /* UIBarButtonItem+Item.h */,
+				16B2211321A5606A008639C0 /* UIBarButtonItem+Item.m */,
+				161CAAD321AACA35005FAE59 /* UITextField+Placeholder.h */,
+				161CAAD421AACA35005FAE59 /* UITextField+Placeholder.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -174,6 +297,8 @@
 		16566B3821A449C3005F39B8 /* Contorller */ = {
 			isa = PBXGroup;
 			children = (
+				165DD2F821A458D50013C959 /* ELPublishViewController.h */,
+				165DD2F921A458D50013C959 /* ELPublishViewController.m */,
 			);
 			path = Contorller;
 			sourceTree = "<group>";
@@ -205,6 +330,8 @@
 		16566B3C21A449C3005F39B8 /* Contorller */ = {
 			isa = PBXGroup;
 			children = (
+				165DD2F221A458BE0013C959 /* ELEssenceViewController.h */,
+				165DD2F321A458BE0013C959 /* ELEssenceViewController.m */,
 			);
 			path = Contorller;
 			sourceTree = "<group>";
@@ -236,6 +363,8 @@
 		16566B4021A449C3005F39B8 /* Contorller */ = {
 			isa = PBXGroup;
 			children = (
+				165DD2FE21A458E80013C959 /* ELMeViewController.h */,
+				165DD2FF21A458E80013C959 /* ELMeViewController.m */,
 			);
 			path = Contorller;
 			sourceTree = "<group>";
@@ -253,6 +382,8 @@
 		16566B4221A449C3005F39B8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1660A0E221A83C7E00006F9B /* ELSubTagItem.h */,
+				1660A0E321A83C7E00006F9B /* ELSubTagItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -260,6 +391,9 @@
 		16566B4321A449C3005F39B8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1660A0E521A83CAF00006F9B /* ELSubTagCell.h */,
+				1660A0E621A83CAF00006F9B /* ELSubTagCell.m */,
+				1660A0E721A83CAF00006F9B /* ELSubTagCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -267,6 +401,10 @@
 		16566B4421A449C3005F39B8 /* Contorller */ = {
 			isa = PBXGroup;
 			children = (
+				165DD2F521A458CA0013C959 /* ELNewViewController.h */,
+				165DD2F621A458CA0013C959 /* ELNewViewController.m */,
+				1660A0EA21A83CF400006F9B /* ELSubTagViewController.h */,
+				1660A0EB21A83CF400006F9B /* ELSubTagViewController.m */,
 			);
 			path = Contorller;
 			sourceTree = "<group>";
@@ -291,6 +429,8 @@
 		16566B4721A449C3005F39B8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				16D4C1EC21A529D400CB387A /* ELTabBar.h */,
+				16D4C1ED21A529D400CB387A /* ELTabBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -298,8 +438,10 @@
 		16566B4821A449C3005F39B8 /* Contorller */ = {
 			isa = PBXGroup;
 			children = (
-				16566B4C21A44A1C005F39B8 /* ELTabBarController.h */,
-				16566B4D21A44A1C005F39B8 /* ELTabBarController.m */,
+				1641E26E21A4800200B257C1 /* ELTabBarController.h */,
+				1641E26F21A4800200B257C1 /* ELTabBarController.m */,
+				165E7DD421A482DD00A3DCB7 /* ELNavigationController.h */,
+				165E7DD521A482DD00A3DCB7 /* ELNavigationController.m */,
 			);
 			path = Contorller;
 			sourceTree = "<group>";
@@ -309,6 +451,90 @@
 			children = (
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		16B2211521A59258008639C0 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				16B2211821A59279008639C0 /* Model */,
+				16B2211721A5926F008639C0 /* View */,
+				16B2211621A59262008639C0 /* Contorler */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		16B2211621A59262008639C0 /* Contorler */ = {
+			isa = PBXGroup;
+			children = (
+				16B2211921A592A3008639C0 /* ELSettingViewController.h */,
+				16B2211A21A592A3008639C0 /* ELSettingViewController.m */,
+			);
+			path = Contorler;
+			sourceTree = "<group>";
+		};
+		16B2211721A5926F008639C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		16B2211821A59279008639C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16B2211C21A5967B008639C0 /* AD */ = {
+			isa = PBXGroup;
+			children = (
+				16B2211F21A59691008639C0 /* Model */,
+				16B2211E21A5968B008639C0 /* View */,
+				16B2211D21A59682008639C0 /* Contorler */,
+			);
+			path = AD;
+			sourceTree = "<group>";
+		};
+		16B2211D21A59682008639C0 /* Contorler */ = {
+			isa = PBXGroup;
+			children = (
+				16B2212021A5970F008639C0 /* ELAddViewController.h */,
+				16B2212121A5970F008639C0 /* ELAddViewController.m */,
+				16B2212221A5970F008639C0 /* ELAddViewController.xib */,
+			);
+			path = Contorler;
+			sourceTree = "<group>";
+		};
+		16B2211E21A5968B008639C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = Contorler/View;
+			sourceTree = "<group>";
+		};
+		16B2211F21A59691008639C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16293B8521A7DFD7008647B7 /* ELADItem.h */,
+				16293B8621A7DFD7008647B7 /* ELADItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16B2212521A59E9C008639C0 /* 启动图片 */ = {
+			isa = PBXGroup;
+			children = (
+				16B2212621A59E9C008639C0 /* LaunchImage@2x.png */,
+				16B2212721A59E9C008639C0 /* LaunchImage-568h@2x.png */,
+				16B2212821A59E9C008639C0 /* LaunchImage-800-667h@2x.png */,
+				16B2212921A59E9C008639C0 /* LaunchImage-800-Portrait-736h@3x.png */,
+				16B2212A21A59E9C008639C0 /* LaunchImage-700@2x.png */,
+				16B2212B21A59E9C008639C0 /* LaunchImage-700-568h@2x.png */,
+				16B2212C21A59E9C008639C0 /* LaunchImage.png */,
+			);
+			path = "启动图片";
 			sourceTree = "<group>";
 		};
 		3B75659FBCE15E722015C3D1 /* Frameworks */ = {
@@ -347,6 +573,7 @@
 		16566B0A21A447BF005F39B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = EL;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Soul Ai";
 				TargetAttributes = {
@@ -378,9 +605,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1660A10821A9A9CA00006F9B /* ELFastLoginView.xib in Resources */,
+				1660A0E921A83CAF00006F9B /* ELSubTagCell.xib in Resources */,
+				1660A0F921A99DE100006F9B /* ELFriendTrendViewController.xib in Resources */,
+				1660A10321A9A9B900006F9B /* ELLoginRegisterView.xib in Resources */,
 				16566B2221A447C0005F39B8 /* LaunchScreen.storyboard in Resources */,
+				16B2212F21A59E9C008639C0 /* LaunchImage-800-667h@2x.png in Resources */,
+				16B2212D21A59E9C008639C0 /* LaunchImage@2x.png in Resources */,
+				16B2212E21A59E9C008639C0 /* LaunchImage-568h@2x.png in Resources */,
+				16B2212421A5970F008639C0 /* ELAddViewController.xib in Resources */,
+				16B2213121A59E9C008639C0 /* LaunchImage-700@2x.png in Resources */,
+				16B2213321A59E9C008639C0 /* LaunchImage.png in Resources */,
+				1660A0FE21A9A0BF00006F9B /* ELLoginRegisterViewController.xib in Resources */,
 				16566B1F21A447C0005F39B8 /* Assets.xcassets in Resources */,
-				16566B1D21A447BF005F39B8 /* Main.storyboard in Resources */,
+				16B2213021A59E9C008639C0 /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
+				16B2213221A59E9C008639C0 /* LaunchImage-700-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,23 +671,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16566B4E21A44A1C005F39B8 /* ELTabBarController.m in Sources */,
+				1660A0F721A8408300006F9B /* ELConst.m in Sources */,
+				1660A0FD21A9A0BF00006F9B /* ELLoginRegisterViewController.m in Sources */,
+				16B2211021A52CAF008639C0 /* UIView+Frame.m in Sources */,
+				16B2212321A5970F008639C0 /* ELAddViewController.m in Sources */,
+				165DD30021A458E80013C959 /* ELMeViewController.m in Sources */,
+				161CAAD521AACA35005FAE59 /* UITextField+Placeholder.m in Sources */,
+				165DD2FD21A458DE0013C959 /* ELFriendTrendViewController.m in Sources */,
+				165DD2FA21A458D50013C959 /* ELPublishViewController.m in Sources */,
 				16566B4B21A449C3005F39B8 /* AppDelegate.m in Sources */,
+				165DD2F721A458CA0013C959 /* ELNewViewController.m in Sources */,
+				165E7DD621A482DD00A3DCB7 /* ELNavigationController.m in Sources */,
+				16B2211421A5606A008639C0 /* UIBarButtonItem+Item.m in Sources */,
+				161103F921AAB28F00487465 /* ELLoginField.m in Sources */,
+				1660A0E421A83C7E00006F9B /* ELSubTagItem.m in Sources */,
+				161103F621AAB19400487465 /* ELFastButton.m in Sources */,
+				16B2211B21A592A3008639C0 /* ELSettingViewController.m in Sources */,
+				16293B8721A7DFD7008647B7 /* ELADItem.m in Sources */,
+				1660A0E821A83CAF00006F9B /* ELSubTagCell.m in Sources */,
+				1641E27021A4800200B257C1 /* ELTabBarController.m in Sources */,
+				1660A10221A9A9B900006F9B /* ELLoginRegisterView.m in Sources */,
+				16D4C18A21A4D4FF00CB387A /* UIImage+image.m in Sources */,
+				165DD2F421A458BE0013C959 /* ELEssenceViewController.m in Sources */,
+				16D4C1EE21A529D400CB387A /* ELTabBar.m in Sources */,
+				1660A0EC21A83CF400006F9B /* ELSubTagViewController.m in Sources */,
 				16566B4A21A449C3005F39B8 /* main.m in Sources */,
+				1660A10721A9A9CA00006F9B /* ELFastLoginView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		16566B1B21A447BF005F39B8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				16566B1C21A447BF005F39B8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		16566B2021A447C0005F39B8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -576,10 +830,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6D0ADB0CD4515B1F111E3DBC /* Pods-budejie.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V3FLFW82NB;
+				GCC_PREFIX_HEADER = budejie/Classes/Other/BaiSi.pch;
 				INFOPLIST_FILE = budejie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -597,10 +853,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E61DE5F3A0EA45DFBB3094D1 /* Pods-budejie.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V3FLFW82NB;
+				GCC_PREFIX_HEADER = budejie/Classes/Other/BaiSi.pch;
 				INFOPLIST_FILE = budejie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

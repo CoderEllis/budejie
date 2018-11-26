@@ -1,73 +1,75 @@
 {
   "images" : [
     {
-      "idiom" : "iphone",
       "size" : "20x20",
+      "idiom" : "iphone",
+      "filename" : "AppIcon20cherry@2x.png",
       "scale" : "2x"
     },
     {
-      "idiom" : "iphone",
       "size" : "20x20",
+      "idiom" : "iphone",
+      "filename" : "AppIcon20cherry@3x.png",
       "scale" : "3x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "AppIcon29x29.png",
+      "filename" : "AppIcon29cherry.png",
       "scale" : "1x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "AppIcon29x29@2x.png",
+      "filename" : "AppIcon29cherry@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "AppIcon29x29@3x.png",
+      "filename" : "AppIcon29cherry@3x.png",
       "scale" : "3x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "AppIcon40x40@2x.png",
+      "filename" : "AppIcon40cherry@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "AppIcon40x40@3x.png",
+      "filename" : "AppIcon40cherry@3x.png",
       "scale" : "3x"
     },
     {
       "size" : "57x57",
       "idiom" : "iphone",
-      "filename" : "AppIcon57x57.png",
+      "filename" : "AppIcon57cherry.png",
       "scale" : "1x"
     },
     {
       "size" : "57x57",
       "idiom" : "iphone",
-      "filename" : "AppIcon57x57@2x.png",
+      "filename" : "AppIcon57cherry@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "AppIcon60x60@2x.png",
+      "filename" : "AppIcon60cherry@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "AppIcon60x60@3x.png",
+      "filename" : "AppIcon60cherry@3x.png",
       "scale" : "3x"
     },
     {
       "size" : "1024x1024",
       "idiom" : "ios-marketing",
-      "filename" : "BrowserPreview_tmp.png",
+      "filename" : "AppIcon1024.png",
       "scale" : "1x"
     }
   ],
