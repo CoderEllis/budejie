@@ -65,7 +65,7 @@
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
     if (self.childViewControllers.count > 0) {  // 非根控制器
         // 恢复滑动返回功能 -> 分析:把系统的返回按钮覆盖 -> 1.手势失效(1.手势被清空 2.可能手势代理做了一些事情,导致手势失效)
-        viewController.hidesBottomBarWhenPushed = YES;
+//        viewController.hidesBottomBarWhenPushed = YES;//u隐藏 tabbar
         // 设置返回按钮,只有非根控制器
         viewController.navigationItem.leftBarButtonItem = [UIBarButtonItem backItemWithimage:[UIImage imageNamed:@"navigationButtonReturn"] highImage:[UIImage imageNamed:@"navigationButtonReturnClick"] target:self ation:@selector(back) title:@"返回"];
 

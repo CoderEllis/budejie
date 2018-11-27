@@ -53,9 +53,8 @@
                         <constraint firstAttribute="width" constant="40" id="Y84-T0-0by"/>
                     </constraints>
                 </imageView>
-                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="123" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XYb-qd-6Tt">
-                    <rect key="frame" x="40" y="238" width="97" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="123" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XYb-qd-6Tt">
+                    <rect key="frame" x="165.5" y="163" width="44.5" height="30"/>
                     <nil key="textColor"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
@@ -64,11 +63,13 @@
             <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="JFY-IA-0uN" firstAttribute="top" secondItem="zb6-C0-6v9" secondAttribute="bottom" constant="30" id="043-lr-auY"/>
+                <constraint firstItem="zb6-C0-6v9" firstAttribute="top" secondItem="XYb-qd-6Tt" secondAttribute="bottom" constant="40" id="0LN-IG-OC0"/>
                 <constraint firstItem="JFY-IA-0uN" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="EWZ-UW-C3N"/>
                 <constraint firstItem="JFY-IA-0uN" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="HDv-ei-wVD"/>
                 <constraint firstItem="zb6-C0-6v9" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="LQI-s9-4pT"/>
                 <constraint firstItem="xh6-Xo-vok" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="NJO-uS-r9w"/>
                 <constraint firstItem="xh6-Xo-vok" firstAttribute="top" secondItem="JFY-IA-0uN" secondAttribute="bottom" constant="30" id="Tec-GL-kUL"/>
+                <constraint firstItem="XYb-qd-6Tt" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="bmR-4k-00h"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <point key="canvasLocation" x="138.40000000000001" y="152.47376311844079"/>

@@ -87,7 +87,8 @@
     [self addChildViewController:nav3];
     
     //我
-    ELMeViewController *meVc = [[ELMeViewController alloc] init];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:NSStringFromClass([ELMeViewController class]) bundle:nil];
+    ELMeViewController *meVc = [storyboard instantiateInitialViewController];// 加载箭头指向控制器
     ELNavigationController *nav4 = [[ELNavigationController alloc] initWithRootViewController:meVc];
     [self addChildViewController:nav4];
 }

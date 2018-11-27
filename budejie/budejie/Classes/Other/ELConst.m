@@ -11,3 +11,4 @@
 
 /** 统一的一个请求路径 */
 NSString * const ELCommonURL = @"http://api.budejie.com/api/api_open.php";
+NSString * const ELTabBarButtonDidRepeatClickNotification = @"ELTabBarButtonDidRepeatClickNotification";

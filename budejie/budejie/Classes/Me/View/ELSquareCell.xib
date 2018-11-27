@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ELSquareCell">
+            <rect key="frame" x="0.0" y="0.0" width="75" height="79"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="75" height="79"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kki-JW-ztd">
+                        <rect key="frame" x="12.5" y="5" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="BD1-Je-wiU"/>
+                            <constraint firstAttribute="width" constant="50" id="PwG-iP-qRS"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zxw-Sb-Nu0">
+                        <rect key="frame" x="19" y="56" width="37.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="zxw-Sb-Nu0" secondAttribute="bottom" constant="5" id="7nS-OT-AOV"/>
+                <constraint firstItem="kki-JW-ztd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="ABY-GZ-s3f"/>
+                <constraint firstItem="kki-JW-ztd" firstAttribute="centerX" secondItem="SEy-5g-ep8" secondAttribute="centerX" id="KP7-FZ-rmJ"/>
+                <constraint firstItem="zxw-Sb-Nu0" firstAttribute="centerX" secondItem="SEy-5g-ep8" secondAttribute="centerX" id="qQ0-VV-nEB"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="76" height="83"/>
+            <connections>
+                <outlet property="iconView" destination="kki-JW-ztd" id="ZOV-c5-7yH"/>
+                <outlet property="nameView" destination="zxw-Sb-Nu0" id="GlL-Wx-azi"/>
+            </connections>
+            <point key="canvasLocation" x="-118" y="5"/>
+        </collectionViewCell>
+    </objects>
+</document>

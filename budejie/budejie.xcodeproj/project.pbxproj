@@ -10,6 +10,14 @@
 		161103F621AAB19400487465 /* ELFastButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 161103F521AAB19400487465 /* ELFastButton.m */; };
 		161103F921AAB28F00487465 /* ELLoginField.m in Sources */ = {isa = PBXBuildFile; fileRef = 161103F821AAB28F00487465 /* ELLoginField.m */; };
 		161CAAD521AACA35005FAE59 /* UITextField+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 161CAAD421AACA35005FAE59 /* UITextField+Placeholder.m */; };
+		161CAB3D21ABE68B005FAE59 /* ELMeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161CAB3C21ABE68B005FAE59 /* ELMeViewController.storyboard */; };
+		161CAB4121ABF5A7005FAE59 /* ELSquareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 161CAB3F21ABF5A7005FAE59 /* ELSquareCell.m */; };
+		161CAB4221ABF5A7005FAE59 /* ELSquareCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161CAB4021ABF5A7005FAE59 /* ELSquareCell.xib */; };
+		161CAB4521ABF5BD005FAE59 /* ELSquareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 161CAB4421ABF5BD005FAE59 /* ELSquareItem.m */; };
+		161CAB4921AC694F005FAE59 /* ELWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161CAB4721AC694F005FAE59 /* ELWebViewController.m */; };
+		161CAB4A21AC694F005FAE59 /* ELWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161CAB4821AC694F005FAE59 /* ELWebViewController.xib */; };
+		161CAB4C21AC7766005FAE59 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161CAB4B21AC7766005FAE59 /* WebKit.framework */; };
+		161CAB5121AD2A6D005FAE59 /* ELFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 161CAB5021AD2A6D005FAE59 /* ELFileTool.m */; };
 		16293B8721A7DFD7008647B7 /* ELADItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 16293B8621A7DFD7008647B7 /* ELADItem.m */; };
 		1641E27021A4800200B257C1 /* ELTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1641E26F21A4800200B257C1 /* ELTabBarController.m */; };
 		16566B1F21A447C0005F39B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16566B1E21A447C0005F39B8 /* Assets.xcassets */; };
@@ -58,6 +66,18 @@
 		161103F821AAB28F00487465 /* ELLoginField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELLoginField.m; sourceTree = "<group>"; };
 		161CAAD321AACA35005FAE59 /* UITextField+Placeholder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+Placeholder.h"; sourceTree = "<group>"; };
 		161CAAD421AACA35005FAE59 /* UITextField+Placeholder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Placeholder.m"; sourceTree = "<group>"; };
+		161CAB3C21ABE68B005FAE59 /* ELMeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ELMeViewController.storyboard; sourceTree = "<group>"; };
+		161CAB3E21ABF5A7005FAE59 /* ELSquareCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELSquareCell.h; sourceTree = "<group>"; };
+		161CAB3F21ABF5A7005FAE59 /* ELSquareCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELSquareCell.m; sourceTree = "<group>"; };
+		161CAB4021ABF5A7005FAE59 /* ELSquareCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ELSquareCell.xib; sourceTree = "<group>"; };
+		161CAB4321ABF5BD005FAE59 /* ELSquareItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELSquareItem.h; sourceTree = "<group>"; };
+		161CAB4421ABF5BD005FAE59 /* ELSquareItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELSquareItem.m; sourceTree = "<group>"; };
+		161CAB4621AC694F005FAE59 /* ELWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELWebViewController.h; sourceTree = "<group>"; };
+		161CAB4721AC694F005FAE59 /* ELWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELWebViewController.m; sourceTree = "<group>"; };
+		161CAB4821AC694F005FAE59 /* ELWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ELWebViewController.xib; sourceTree = "<group>"; };
+		161CAB4B21AC7766005FAE59 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		161CAB4F21AD2A6D005FAE59 /* ELFileTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELFileTool.h; sourceTree = "<group>"; };
+		161CAB5021AD2A6D005FAE59 /* ELFileTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELFileTool.m; sourceTree = "<group>"; };
 		16293B8521A7DFD7008647B7 /* ELADItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELADItem.h; sourceTree = "<group>"; };
 		16293B8621A7DFD7008647B7 /* ELADItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELADItem.m; sourceTree = "<group>"; };
 		1641E26E21A4800200B257C1 /* ELTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELTabBarController.h; sourceTree = "<group>"; };
@@ -131,6 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				161CAB4C21AC7766005FAE59 /* WebKit.framework in Frameworks */,
 				42625695E75A93CF687BA188 /* libPods-budejie.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +370,8 @@
 		16566B3E21A449C3005F39B8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				161CAB4321ABF5BD005FAE59 /* ELSquareItem.h */,
+				161CAB4421ABF5BD005FAE59 /* ELSquareItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -356,6 +379,9 @@
 		16566B3F21A449C3005F39B8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				161CAB3E21ABF5A7005FAE59 /* ELSquareCell.h */,
+				161CAB3F21ABF5A7005FAE59 /* ELSquareCell.m */,
+				161CAB4021ABF5A7005FAE59 /* ELSquareCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -365,6 +391,10 @@
 			children = (
 				165DD2FE21A458E80013C959 /* ELMeViewController.h */,
 				165DD2FF21A458E80013C959 /* ELMeViewController.m */,
+				161CAB3C21ABE68B005FAE59 /* ELMeViewController.storyboard */,
+				161CAB4621AC694F005FAE59 /* ELWebViewController.h */,
+				161CAB4721AC694F005FAE59 /* ELWebViewController.m */,
+				161CAB4821AC694F005FAE59 /* ELWebViewController.xib */,
 			);
 			path = Contorller;
 			sourceTree = "<group>";
@@ -449,6 +479,8 @@
 		16566B4921A449C3005F39B8 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				161CAB4F21AD2A6D005FAE59 /* ELFileTool.h */,
+				161CAB5021AD2A6D005FAE59 /* ELFileTool.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -540,6 +572,7 @@
 		3B75659FBCE15E722015C3D1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				161CAB4B21AC7766005FAE59 /* WebKit.framework */,
 				8F3C127C20440EA866ABD8EB /* libPods-budejie.a */,
 			);
 			name = Frameworks;
@@ -610,7 +643,10 @@
 				1660A0F921A99DE100006F9B /* ELFriendTrendViewController.xib in Resources */,
 				1660A10321A9A9B900006F9B /* ELLoginRegisterView.xib in Resources */,
 				16566B2221A447C0005F39B8 /* LaunchScreen.storyboard in Resources */,
+				161CAB4221ABF5A7005FAE59 /* ELSquareCell.xib in Resources */,
 				16B2212F21A59E9C008639C0 /* LaunchImage-800-667h@2x.png in Resources */,
+				161CAB3D21ABE68B005FAE59 /* ELMeViewController.storyboard in Resources */,
+				161CAB4A21AC694F005FAE59 /* ELWebViewController.xib in Resources */,
 				16B2212D21A59E9C008639C0 /* LaunchImage@2x.png in Resources */,
 				16B2212E21A59E9C008639C0 /* LaunchImage-568h@2x.png in Resources */,
 				16B2212421A5970F008639C0 /* ELAddViewController.xib in Resources */,
@@ -673,6 +709,7 @@
 			files = (
 				1660A0F721A8408300006F9B /* ELConst.m in Sources */,
 				1660A0FD21A9A0BF00006F9B /* ELLoginRegisterViewController.m in Sources */,
+				161CAB4521ABF5BD005FAE59 /* ELSquareItem.m in Sources */,
 				16B2211021A52CAF008639C0 /* UIView+Frame.m in Sources */,
 				16B2212321A5970F008639C0 /* ELAddViewController.m in Sources */,
 				165DD30021A458E80013C959 /* ELMeViewController.m in Sources */,
@@ -684,6 +721,7 @@
 				165E7DD621A482DD00A3DCB7 /* ELNavigationController.m in Sources */,
 				16B2211421A5606A008639C0 /* UIBarButtonItem+Item.m in Sources */,
 				161103F921AAB28F00487465 /* ELLoginField.m in Sources */,
+				161CAB5121AD2A6D005FAE59 /* ELFileTool.m in Sources */,
 				1660A0E421A83C7E00006F9B /* ELSubTagItem.m in Sources */,
 				161103F621AAB19400487465 /* ELFastButton.m in Sources */,
 				16B2211B21A592A3008639C0 /* ELSettingViewController.m in Sources */,
@@ -691,9 +729,11 @@
 				1660A0E821A83CAF00006F9B /* ELSubTagCell.m in Sources */,
 				1641E27021A4800200B257C1 /* ELTabBarController.m in Sources */,
 				1660A10221A9A9B900006F9B /* ELLoginRegisterView.m in Sources */,
+				161CAB4121ABF5A7005FAE59 /* ELSquareCell.m in Sources */,
 				16D4C18A21A4D4FF00CB387A /* UIImage+image.m in Sources */,
 				165DD2F421A458BE0013C959 /* ELEssenceViewController.m in Sources */,
 				16D4C1EE21A529D400CB387A /* ELTabBar.m in Sources */,
+				161CAB4921AC694F005FAE59 /* ELWebViewController.m in Sources */,
 				1660A0EC21A83CF400006F9B /* ELSubTagViewController.m in Sources */,
 				16566B4A21A449C3005F39B8 /* main.m in Sources */,
 				1660A10721A9A9CA00006F9B /* ELFastLoginView.m in Sources */,
