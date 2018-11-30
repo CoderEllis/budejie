@@ -55,6 +55,7 @@
 		16293B8721A7DFD7008647B7 /* ELADItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 16293B8621A7DFD7008647B7 /* ELADItem.m */; };
 		162C360621B03B1900B98006 /* ELSeeBigPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C360421B03B1900B98006 /* ELSeeBigPictureViewController.m */; };
 		162C360721B03B1900B98006 /* ELSeeBigPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 162C360521B03B1900B98006 /* ELSeeBigPictureViewController.xib */; };
+		162C360A21B1BE3C00B98006 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 162C360921B1BE3C00B98006 /* AudioToolbox.framework */; };
 		1641E27021A4800200B257C1 /* ELTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1641E26F21A4800200B257C1 /* ELTabBarController.m */; };
 		16566B1F21A447C0005F39B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16566B1E21A447C0005F39B8 /* Assets.xcassets */; };
 		16566B2221A447C0005F39B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16566B2021A447C0005F39B8 /* LaunchScreen.storyboard */; };
@@ -184,6 +185,8 @@
 		162C360321B03B1900B98006 /* ELSeeBigPictureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELSeeBigPictureViewController.h; sourceTree = "<group>"; };
 		162C360421B03B1900B98006 /* ELSeeBigPictureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELSeeBigPictureViewController.m; sourceTree = "<group>"; };
 		162C360521B03B1900B98006 /* ELSeeBigPictureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ELSeeBigPictureViewController.xib; sourceTree = "<group>"; };
+		162C360821B1BE3C00B98006 /* budejie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = budejie.entitlements; sourceTree = "<group>"; };
+		162C360921B1BE3C00B98006 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		1641E26E21A4800200B257C1 /* ELTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELTabBarController.h; sourceTree = "<group>"; };
 		1641E26F21A4800200B257C1 /* ELTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELTabBarController.m; sourceTree = "<group>"; };
 		16566B1221A447BF005F39B8 /* budejie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = budejie.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -257,6 +260,7 @@
 			files = (
 				161CAB4C21AC7766005FAE59 /* WebKit.framework in Frameworks */,
 				42625695E75A93CF687BA188 /* libPods-budejie.a in Frameworks */,
+				162C360A21B1BE3C00B98006 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +392,7 @@
 		16566B1421A447BF005F39B8 /* budejie */ = {
 			isa = PBXGroup;
 			children = (
+				162C360821B1BE3C00B98006 /* budejie.entitlements */,
 				16566B2B21A449C3005F39B8 /* Classes */,
 				16566B1E21A447C0005F39B8 /* Assets.xcassets */,
 				16B2212521A59E9C008639C0 /* 启动图片 */,
@@ -800,6 +805,7 @@
 		3B75659FBCE15E722015C3D1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				162C360921B1BE3C00B98006 /* AudioToolbox.framework */,
 				161CAB4B21AC7766005FAE59 /* WebKit.framework */,
 				8F3C127C20440EA866ABD8EB /* libPods-budejie.a */,
 			);
@@ -840,6 +846,11 @@
 				TargetAttributes = {
 					16566B1121A447BF005F39B8 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -1137,6 +1148,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = budejie/budejie.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V3FLFW82NB;
 				GCC_PREFIX_HEADER = budejie/Classes/Other/BaiSi.pch;
@@ -1160,6 +1172,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = budejie/budejie.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V3FLFW82NB;
 				GCC_PREFIX_HEADER = budejie/Classes/Other/BaiSi.pch;

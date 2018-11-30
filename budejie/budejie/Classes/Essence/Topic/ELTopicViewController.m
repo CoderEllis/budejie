@@ -299,6 +299,7 @@ static NSString * const ELTopicCellId = @"ELTopicCellId";
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
+    
     //处理缓存
     [[SDImageCache sharedImageCache] clearMemory];
     
@@ -306,7 +307,8 @@ static NSString * const ELTopicCellId = @"ELTopicCellId";
     //    [SDImageCache sharedImageCache].maxCacheAge = 30 * 24 * 60 * 60;
     
     // 清除沙盒中所有使用SD缓存的过期图片（缓存时长 > 一个星期）
-    //    [[SDImageCache sharedImageCache] cleanDisk];
+//        [[SDImageCache sharedImageCache] cleanDisk];
+    
     
     // 清除沙盒中所有使用SD缓存的图片
     //    [[SDImageCache sharedImageCache] clearDisk];

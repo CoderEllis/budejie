@@ -34,7 +34,7 @@ static NSString * const ID = @"cell";
     self.title = @"推荐标签";
     self.tableView.backgroundColor = ELColor(220, 220, 220);
     
-    [SVProgressHUD  showWithStatus:@"正在加载ing....."];
+    [SVProgressHUD showWithStatus:@"正在加载ing....."];
     
 //    [self setupRefresh];
 }

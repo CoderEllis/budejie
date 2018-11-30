@@ -32,8 +32,7 @@
          */
         CGFloat middleW = textMaxsize.width;
         CGFloat middleH = middleW * self.height / self.width;
-        if (middleH >= ScreenWidth) {// 显示的图片高度超过一个屏幕，就是超长图片
-            middleH = ScreenWidth - ELMarin *2;
+        if (middleH >= ScreenHeight) {// 显示的图片高度超过一个屏幕，就是超长图片
             self.bigPicture = YES;
         }
         CGFloat middleY = _cellHeight;

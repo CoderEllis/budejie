@@ -44,7 +44,7 @@
     _topic = topic;
     
     self.placeholderView.hidden = NO;
-    [self.imageView el_setOriginImage:topic.image1 thumbnailImage:topic.image0 placeholder:nil completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
+    [self.imageView el_setOriginImage:topic.image1 thumbnailImage:topic.image0 placeholder:[UIImage imageNamed:@"XIACenM"] completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
         if (!image) return;
         self.placeholderView.hidden = YES;
         // 处理超长图片的大小
@@ -64,7 +64,7 @@
     // gif
     self.gifView.hidden = !topic.is_gif; //如果服务器有数据返回图片类型这么判断
     
-//        if ([topic.image1.lowercaseString hasSuffix:@"gif"]) {
+//        if ([topic.image1.lowercaseString hasSuffix:@"gif"]) { //hasSuffix 后缀
 //        if ([topic.image1.pathExtension.lowercaseString isEqualToString:@"gif"]) {
 //            self.gifView.hidden = NO;
 //        } else {
