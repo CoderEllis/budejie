@@ -31,18 +31,21 @@
     _nameView.text = item.theme_name;
     [self resolveNum];
     
+    //设置头像
+    [_iconView el_setHeader:item.image_list];
+    
 //    [_iconView  sd_setImageWithURL:[NSURL URLWithString:item.image_list] placeholderImage:[UIImage imageNamed:@"defaultUserIcon"]];
  
-    [_iconView sd_setImageWithURL:[NSURL URLWithString:item.image_list] placeholderImage:[UIImage imageNamed:@"defaultUserIcon"] options:SDWebImageFromLoaderOnly completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
-        
-        UIGraphicsBeginImageContextWithOptions(image.size, NO, 0);
-        UIBezierPath *path = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(0, 0, image.size.width, image.size.height)];
-        [path addClip];
-        [image drawAtPoint:CGPointZero];
-        image = UIGraphicsGetImageFromCurrentImageContext();
-        UIGraphicsEndImageContext();
-        self->_iconView.image = image;
-    }];
+//    [_iconView sd_setImageWithURL:[NSURL URLWithString:item.image_list] placeholderImage:[UIImage imageNamed:@"defaultUserIcon"] options:SDWebImageFromLoaderOnly completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
+//        
+//        UIGraphicsBeginImageContextWithOptions(image.size, NO, 0);
+//        UIBezierPath *path = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(0, 0, image.size.width, image.size.height)];
+//        [path addClip];
+//        [image drawAtPoint:CGPointZero];
+//        image = UIGraphicsGetImageFromCurrentImageContext();
+//        UIGraphicsEndImageContext();
+//        self->_iconView.image = image;
+//    }];
     
     
 }
@@ -74,6 +77,7 @@
 //    _iconView.layer.masksToBounds = YES;
     // 方法2 .shoryboard 设置 layer.masksToBounds  layer.cornerRadius->number
 }
+
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];

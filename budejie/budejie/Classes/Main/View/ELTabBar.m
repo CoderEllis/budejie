@@ -11,7 +11,7 @@
 @interface ELTabBar()
 
 @property (nonatomic, weak)UIButton *plusButton;
-
+@property (nonatomic, weak)UIControl *previousClickedTabBarButton;
 
 @end
 
@@ -24,12 +24,17 @@
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
         [btn setImage:[UIImage imageNamed:@"tabBar_publish_icon"] forState:UIControlStateNormal];
         [btn setImage:[UIImage imageNamed:@"tabBar_publish_click_icon"] forState:UIControlStateSelected];
+        [btn addTarget:self action:@selector(publish) forControlEvents:UIControlEventTouchUpInside];
         [btn sizeToFit];
         [self addSubview:btn];
         
         _plusButton = btn;
     }
     return _plusButton;
+}
+
+- (void)publish {
+    ELFunc;
 }
 
 
@@ -42,8 +47,15 @@
     CGFloat x = 0;
     int i = 0;
     
-    for (UIView *tabBarbutton in self.subviews) {
+    for (UIControl *tabBarbutton in self.subviews) {
         if ([tabBarbutton isKindOfClass:NSClassFromString(@"UITabBarButton")]) {
+            
+            // 设置previousClickedTabBarButton默认值为最前面的按钮
+            if (i == 0 && self.previousClickedTabBarButton == nil) {
+                self.previousClickedTabBarButton = tabBarbutton;
+            }
+            
+            
             if (i == 2) {
                 i += 1;
             }
@@ -52,6 +64,10 @@
             tabBarbutton.frame = CGRectMake(x, 0, btnW, btnH);
             
             i ++;
+            // UIControlEventTouchDownRepeat : 在短时间内连续点击按钮
+            
+            // 监听点击
+            [tabBarbutton addTarget:self action:@selector(tabBarButtonChick:) forControlEvents:UIControlEventTouchUpInside];
         }
     }
     
@@ -59,6 +75,16 @@
 //    NSLog(@"%f,%f",self.EL_width,self.El_heigh);
 }
 
+/**
+ *  tabBarButton的点击
+ */
+- (void)tabBarButtonChick: (UIControl *)tabBarButton {
+    if (self.previousClickedTabBarButton == tabBarButton) {
+        // 发出通知，告知外界tabBarButton被重复点击了
+        [[NSNotificationCenter defaultCenter] postNotificationName:ELTabBarButtonDidRepeatClickNotification object:nil];
+    }
+    self.previousClickedTabBarButton = tabBarButton;
+}
 
 
 

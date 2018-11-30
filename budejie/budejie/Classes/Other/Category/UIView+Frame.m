@@ -9,6 +9,12 @@
 #import "UIView+Frame.h"
 
 @implementation UIView (Frame)
+
++ (instancetype)el_viewFromXib {
+    return [[NSBundle mainBundle] loadNibNamed:NSStringFromClass(self) owner:nil options:nil].firstObject;
+}
+
+
 //set
 - (void)setEl_width:(CGFloat)el_width {
     CGRect rect = self.frame;

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ELTopicVoiceView">
+            <rect key="frame" x="0.0" y="0.0" width="288" height="227"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imageBackground" translatesAutoresizingMaskIntoConstraints="NO" id="2KS-g0-Fae" userLabel="占位图片">
+                    <rect key="frame" x="0.0" y="10" width="288" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="P5c-Ni-ZHe"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Y7C-fY-1cI">
+                    <rect key="frame" x="0.0" y="0.0" width="288" height="227"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVJ-0N-N3F">
+                    <rect key="frame" x="112.5" y="82" width="63" height="63"/>
+                    <state key="normal" image="playButtonPlay" backgroundImage="playButton"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4343播放" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfU-OG-Mup">
+                    <rect key="frame" x="0.0" y="206" width="77" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="03:20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aso-RV-XoL">
+                    <rect key="frame" x="242" y="206" width="46" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="2KS-g0-Fae" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="3wl-GK-rVt"/>
+                <constraint firstAttribute="trailing" secondItem="Aso-RV-XoL" secondAttribute="trailing" id="5Lj-9Q-g7h"/>
+                <constraint firstAttribute="bottom" secondItem="Aso-RV-XoL" secondAttribute="bottom" id="A7T-gs-1cD"/>
+                <constraint firstAttribute="bottom" secondItem="dfU-OG-Mup" secondAttribute="bottom" id="FfC-XV-heM"/>
+                <constraint firstItem="nVJ-0N-N3F" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="MPw-9U-lGn"/>
+                <constraint firstItem="2KS-g0-Fae" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="NLe-iE-C8W"/>
+                <constraint firstItem="nVJ-0N-N3F" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="QQw-yH-4so"/>
+                <constraint firstItem="Y7C-fY-1cI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Wi1-lv-w2o"/>
+                <constraint firstAttribute="bottom" secondItem="Y7C-fY-1cI" secondAttribute="bottom" id="Ysd-gf-ZtV"/>
+                <constraint firstItem="Y7C-fY-1cI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="kpG-5x-6OD"/>
+                <constraint firstAttribute="trailing" secondItem="2KS-g0-Fae" secondAttribute="trailing" id="tY9-pp-Z4G"/>
+                <constraint firstAttribute="trailing" secondItem="Y7C-fY-1cI" secondAttribute="trailing" id="wXO-bN-d1O"/>
+                <constraint firstItem="dfU-OG-Mup" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xAQ-df-vRT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="imageView" destination="Y7C-fY-1cI" id="aY8-or-g8W"/>
+                <outlet property="placeholderView" destination="2KS-g0-Fae" id="QGw-U3-V2c"/>
+                <outlet property="playcountLabel" destination="dfU-OG-Mup" id="NF9-L4-zrF"/>
+                <outlet property="voicetimeLabel" destination="Aso-RV-XoL" id="yDj-2N-MnH"/>
+            </connections>
+            <point key="canvasLocation" x="-16" y="-149.77511244377811"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="imageBackground" width="75" height="15"/>
+        <image name="playButton" width="63" height="63"/>
+        <image name="playButtonPlay" width="30" height="30"/>
+    </resources>
+</document>

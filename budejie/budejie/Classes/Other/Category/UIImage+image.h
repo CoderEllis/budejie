@@ -11,7 +11,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIImage (image)
-+ (UIImage *)imageOriginalwhitName:(NSString *)imageName;
+
++ (instancetype)imageOriginalwhitName:(NSString *)imageName;
+- (instancetype)el_circleImage;
++ (instancetype)el_circleImageImageNamed:(NSString *)name;
+
 @end
 
 NS_ASSUME_NONNULL_END

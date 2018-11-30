@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (Frame)
 
++ (instancetype)el_viewFromXib;
 @property CGFloat el_width;
 @property CGFloat el_height;
 @property CGFloat el_x;
